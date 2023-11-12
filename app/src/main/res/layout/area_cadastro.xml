@@ -7,6 +7,7 @@
     tools:context=".areaDcadastro">
 
     <TextView
+        android:id="@+id/btn_areaDcadastro"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -15,6 +16,7 @@
         android:textSize="40sp" />
 
     <Button
+        android:id="@+id/btn_dadosPessoais"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -22,6 +24,7 @@
         android:text="Dados Pessoais" />
 
     <Button
+        android:id="@+id/btn_medicamentos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -29,10 +32,20 @@
         android:text="Medicamentos" />
 
     <Button
+        android:id="@+id/btn_adicionarComentarios"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginTop="40dp"
         android:text="Adicionar\ncomentários" />
+
+    <Button
+        android:id="@+id/btn_sairAreaDcadastro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:text="Voltar"
+        android:onClick="voltarTareaCadastro" />
 
 </LinearLayout>
