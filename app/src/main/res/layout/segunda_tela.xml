@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".SegundaTela">
+
+    <Button
+        android:id="@+id/btn_cadastrar_paciente"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar paciente"
+        android:onClick="cadastrarPaciente" />
+        //vai para a area de cadastro tela
+
+    <Button
+        android:id="@+id/btn_ver_pacientes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Ver pacientes"
+        android:onClick="verPacientes" />
+        //vai para a 4° tela
+
+    <Button
+        android:id="@+id/btn_voltarT2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Voltar"
+        android:onClick="VoltarT2" />
+
+</LinearLayout>
